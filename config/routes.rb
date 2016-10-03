@@ -9,8 +9,7 @@ Rails.application.routes.draw do
   get 'users/edit'
 
   get 'welcome/homepage'
-  # get 'welcome/about'
-  get 'about', to: 'welcome#about', as: 'about'
+  get 'welcome/about'
   root 'welcome#homepage'
 
 
