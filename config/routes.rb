@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :products
   get 'users/index'
 
   get 'users/show'
