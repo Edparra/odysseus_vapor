@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Product.create({title:'Vape Pen', description:'Staylit Chief Vaporizer Pen Kit comes with all the essentials needed to operate at full capacity.', pic_url:'http://www.marijuanapackaging.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/t/staylit-chief-vaporizer-pen-kit-chrome-0.jpg'})
+Product.create({title:'Staylit Chief Vaporizer Pen Kit', description:'Staylit Chief Vaporizer Pen Kit comes with all the essentials needed to operate at full capacity.', pic_url:'http://www.marijuanapackaging.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/t/staylit-chief-vaporizer-pen-kit-chrome-0.jpg'})
 
 Product.create({title:'Double G Snoop Dogg G Pen', description:'This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.', pic_url:'http://img.diytrade.com/seimg/2079677/40384550/Double_G_Snoop_Dogg_G_Pen_Herbal_Vaporizer_herbal_tank_Box_Set.jpg'})
 
