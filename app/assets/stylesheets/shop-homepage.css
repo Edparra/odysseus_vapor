@@ -11,6 +11,20 @@ body {
 .intro{
     text-align: center;
 }
+.biglogo{
+    width: 40%;
+    height:40%;
+}
+#aboutPage img{
+    float: left;
+}
+#aboutPage p {
+    color:green;
+}
+
+
+
+
 .slide-image {
     width: 100%;
 }
@@ -64,4 +78,5 @@ body {
 
 footer {
     margin: 50px 0;
+    text-align: center;
 }
