@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :wishlists
   resources :products
   get 'users/index'
