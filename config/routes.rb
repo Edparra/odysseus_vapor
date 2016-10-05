@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :wishlists
   resources :products
 
- get 'user_root', to: 'wishlists#index', as: :user_root
+ get 'user_root', to: 'homepage#index', as: :user_root
 
   get 'users/index'
   get 'users/show'

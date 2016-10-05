@@ -6,4 +6,15 @@ class User < ApplicationRecord
   validates :email, presence: true
 
   has_one :wishlist
+
+    after_create :create_user_wishlist
+
+  def create_user_wishlist
+    w = Wishlist.create()
+    self.wishlist = w
+    self.save!
+  end
+
+
 end
+

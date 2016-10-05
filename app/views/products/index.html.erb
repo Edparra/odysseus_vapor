@@ -7,7 +7,7 @@
         <% @products.each do |product| %>
 
         <%= link_to image_tag(product.pic_url, {class: 'front'}), product %>
-        <button>Add to wishlist</button> <br>
+      <!--  #<#%= link_to {}"Add to wishlist", toggle_add(product), {class: 'button'} %>  <br> -->
         <%= product.title %>
         <%= product.description %>
 
@@ -17,6 +17,11 @@
     <% end %>
 
 <br>
+
+
+
+
+
 
 <%= link_to 'New Product', new_product_path %>
 
