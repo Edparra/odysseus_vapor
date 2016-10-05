@@ -13,6 +13,10 @@ body {
     font-family: Papyrus, fantasy;
     font-size: 150%;
 }
+.top{
+     text-align: center;
+    font-family: Papyrus, fantasy;
+}
 .biglogo{
     width: 40%;
     height:40%;
@@ -43,6 +47,10 @@ body {
 }
 .headline{
     text-align: center;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+.space{
+   line-height: 48px;
 }
 
 .carousel-holder {

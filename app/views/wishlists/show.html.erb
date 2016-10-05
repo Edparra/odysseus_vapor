@@ -1,23 +1,24 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>User:</strong>
-  <%= @wishlist.user %>
-</p>
 
-  <tbody>
+ <h1 class="top">
+  <%= @wishlist.user.email %>'s Wishlist
+  </h1>
+  <hr>
+
+
+
     <% @wishlist.products.each do |product| %>
-      <tr>
-      <%= link_to image_tag(product.pic_url, {class: 'front'}), product %> <br>
-        <td><%= product.title %></td> <br>
-        <td><%= product.description %></td>
-        <td><%= link_to 'Show', product %></td>
-        <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+
+      <%= link_to image_tag(product.pic_url, {class: 'front'}), product %>
+ <button class='btn btn-danger'> <%= link_to 'Delete', product,  method: :delete, data: { confirm: 'Are you sure?' } %></button> <br>
+       <strong><%= product.title %></strong><br>
+        <%= product.description %>
+
+        <hr>
+
     <% end %>
-  </tbody>
-</table>
+
 
 <%= link_to 'Edit', edit_wishlist_path(@wishlist) %> |
 <%= link_to 'Back', wishlists_path %>
