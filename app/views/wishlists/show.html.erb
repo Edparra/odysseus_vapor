@@ -8,7 +8,8 @@
   <tbody>
     <% @wishlist.products.each do |product| %>
       <tr>
-        <td><%= product.title %></td>
+      <%= link_to image_tag(product.pic_url, {class: 'front'}), product %> <br>
+        <td><%= product.title %></td> <br>
         <td><%= product.description %></td>
         <td><%= link_to 'Show', product %></td>
         <td><%= link_to 'Edit', edit_product_path(product) %></td>
