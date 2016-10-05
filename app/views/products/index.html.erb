@@ -6,11 +6,11 @@
 
         <% @products.each do |product| %>
 
-        <img class="front" src="<%= product.pic_url %>">
+        <%= link_to image_tag(product.pic_url, {class: 'front'}), product %>
         <button>Add to wishlist</button> <br>
         <%= product.title %>
         <%= product.description %>
-        <%= link_to 'Show', product %>
+
         <%= link_to 'Edit', edit_product_path(product) %>
         <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %> <hr>
 
