@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
-  before_action :set_product, only: [:show, :edit, :update, :destroy]
+  before_action :set_product, only: [:show, :edit, :update, :destroy, :toggle_add]
 
   # GET /products
   # GET /products.json
@@ -58,6 +58,14 @@ class ProductsController < ApplicationController
     respond_to do |format|
       format.html { redirect_to products_url, notice: 'Product was successfully destroyed.' }
       format.json { head :no_content }
+    end
+  end
+
+  def toggle_add
+    current_user.wishlist.products << @product
+    respond_to do |format|
+      format.html { redirect_to products_path,  notice: 'Added to wishlist' }
+      format.json { render :show, status: :ok, location: @product }
     end
   end
 

@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get 'users/new'
   get 'users/edit'
 
+  get 'products/:id/toggle_add', to: 'products#toggle_add', as: 'toggle'
+
 
 
   get 'welcome/homepage'
