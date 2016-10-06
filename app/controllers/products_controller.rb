@@ -54,9 +54,9 @@ class ProductsController < ApplicationController
   # DELETE /products/1
   # DELETE /products/1.json
   def destroy
-    @product.destroy
+    current_user.wishlist.products.delete(@product)
     respond_to do |format|
-      format.html { redirect_to products_url, notice: 'Product was successfully destroyed.' }
+      format.html { redirect_to :back, notice: 'Product was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
