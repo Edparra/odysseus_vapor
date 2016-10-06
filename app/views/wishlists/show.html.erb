@@ -10,7 +10,7 @@
 
     <% @wishlist.products.each do |product| %>
 
-      <%= link_to image_tag(product.pic_url, {class: 'front'}), '/products/wishitem' %>
+      <%= link_to image_tag(product.pic_url, {class: 'front'}), product %>
  <button class='btn btn-danger'> <%= link_to 'Delete', product,  method: :delete, data: { confirm: 'Are you sure?' } %></button> <br>
        <strong><%= product.title %></strong><br>
         <%= product.description %>
@@ -21,4 +21,4 @@
 
 
 <%= link_to 'Edit', edit_wishlist_path(@wishlist) %> |
-<%= link_to 'Back', wishlists_path %>
+<%= link_to 'Back', :back %>
