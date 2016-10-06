@@ -6,15 +6,15 @@
 <hr>
 
         <% @products.each do |product| %>
+<div class='eachitem'>
 
         <%= link_to image_tag(product.pic_url, {class: 'front'}), product %>
         <%= link_to "Add to wishlist", toggle_path(product), {class: 'btn btn-info'} %>  <br>
         <strong><%= product.title %></strong>
         <br>
         <%= product.description %>
-
-
-     <hr>
+</div>
+<br>
 
     <% end %>
 
@@ -23,8 +23,8 @@
 
 
 
+<!-- <div class='buttondown'>
 
+<button class="btn-warning hours"> <a href='/'>Back </a></button>
 
-<%= link_to 'New Product', new_product_path %>
-
-<button class="btn-warning"> <a href='/'>Back </a></button>
+</div> -->
