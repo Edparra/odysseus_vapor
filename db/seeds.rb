@@ -17,6 +17,7 @@ p6 = Product.create!({title:'Cloud Pens', description:'Great easy to use pens fo
 p7 = Product.create!({title:'Kangertech Topbox Mini', description:'Simple starter kit without battery', pic_url:'https://www.canvape.com/v/vspfiles/photos/KangTopBoxMini-2.jpg'})
 p8 = Product.create!({title:'Kangertech Clearomizer Tank', description:'Constructed of Pyrex Glass and High-Quality 304 Stainless Steel ', pic_url:'http://cdn.shopify.com/s/files/1/0400/6105/products/TOPTANK_MINI2.jpg?v=1453767933'})
 p9 = Product.create!({title:'Kangertech Kbox 200', description:'Dual box mod with five different modes', pic_url:'https://aspenvalleyvapes.com/wp-content/uploads/2015/12/kangertech-kbox-200-watt-510x349.png'})
+p10 = Product.create!({title:'Joyetech eVic-VTC', description:'Innovative and mature control mod', pic_url:'http://www.heavengifts.com/public/images/52/75/3c/cb40136bc89a7a84d69a14e4b27cab29.jpg
 
 
 
