@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
     <!-- Navigation -->
-
+<div class='allitems'>
 
 <h1 class="headline">Products</h1>
 <hr>
@@ -8,15 +8,16 @@
         <% @products.each do |product| %>
 <div class='eachitem'>
 
-        <%= link_to image_tag(product.pic_url, {class: 'front'}), product %>
-        <%= link_to "Add to wishlist", toggle_path(product), {class: 'btn btn-info'} %>  <br>
+        <%= link_to image_tag(product.pic_url, {class: 'front'}), product %> <br>
         <strong><%= product.title %></strong>
         <br>
-        <%= product.description %>
+        <%= product.description %><br>
+        <%= link_to "Add to wishlist", toggle_path(product), {class: 'btn btn-info'} %>  <br>
 </div>
-<br>
+
 
     <% end %>
+</div>
 
 <br>
 

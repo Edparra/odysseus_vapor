@@ -13,16 +13,22 @@ body {
     font-family: Papyrus, fantasy;
     font-size: 150%;
 }
+.allitems{
+     width: 860px;
+    margin: 0 auto;
+}
 .eachitem{
     width:40%;
    border-style: solid;
    border-spacing: 2px,2px,2px,2px;
    float: left;
    padding: 8px;
-   margin:4px;
+   margin:12px;
 }
-.buttondown{
-
+.aboutpic{
+    width:70%;
+    height:70%;
+    padding-left: 20px;
 }
 .top{
      text-align: center;
@@ -60,6 +66,7 @@ body {
 .front{
     height:200px;
     width:200px;
+    margin:4px;
 }
 .headline{
     text-align: center;
