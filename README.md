@@ -22,6 +22,13 @@ Technologies Used:
 
 * Heroku
 
+####Wireframes
+
+![Figure 1](images/home_page.jpg?raw=true)
+
+![Figure 2](images/products.jpg?raw=true)
+
+![Figure 3](images/contact_info.jpg?raw=true)
 
 ####Visit Page
 https://odysseus-vapor.herokuapp.com/
