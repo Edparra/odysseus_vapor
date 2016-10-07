@@ -24,11 +24,11 @@ Technologies Used:
 
 ####Wireframes
 
-![Figure 1](images/home_page.jpg?raw=true)
+![alt text](https://raw.githubusercontent.com/irvin-glez/odysseus-vapor/master/app/assets/images/products.jpg)
 
-![Figure 2](images/products.jpg?raw=true)
+![alt text](https://raw.githubusercontent.com/irvin-glez/odysseus-vapor/master/app/assets/images/home_page.jpg)
 
-![Figure 3](images/contact_info.jpg?raw=true)
+![alt text](https://raw.githubusercontent.com/irvin-glez/odysseus-vapor/master/app/assets/images/contact_info.jpg)
 
 ####Visit Page
 https://odysseus-vapor.herokuapp.com/
