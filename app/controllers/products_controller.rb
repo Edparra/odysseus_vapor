@@ -1,4 +1,5 @@
 class ProductsController < ApplicationController
+  before_action :authenticate_user!, only: [:toggle_add]
   before_action :set_product, only: [:show, :edit, :update, :destroy, :toggle_add]
 
   # GET /products
