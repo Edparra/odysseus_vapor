@@ -21,6 +21,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
-##Visit Page
+
+####Visit Page
 https://odysseus-vapor.herokuapp.com/
