@@ -6,10 +6,10 @@
 
 body {
     padding-top: 40px;
-    background-image: url('https://i.ytimg.com/vi/2QDZ8vLpw60/maxresdefault.jpg');
+    /*background-image: url('https://i.ytimg.com/vi/2QDZ8vLpw60/maxresdefault.jpg');
     background-size: 100% 100%;
-    background-repeat: no-repeat;
-    /*background-color: #7989EF;*/ /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-repeat: no-repeat;*/
+    background-color: #2374AE; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 .intro{
     text-align: center;
