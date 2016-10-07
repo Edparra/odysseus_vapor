@@ -1,25 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Technologies Used:
 
-* Ruby version
+* HTML
 
-* System dependencies
+* CSS
 
-* Configuration
+* PostgrSQL
 
-* Database creation
+* Ruby on Rails
 
-* Database initialization
+* Twitter Bootstrap
 
-* How to run the test suite
+* Devise
 
-* Services (job queues, cache servers, search engines, etc.)
+* bCrypt
 
-* Deployment instructions
+* Heroku
 
 
 ####Visit Page
