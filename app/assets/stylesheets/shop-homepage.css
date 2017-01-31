@@ -87,6 +87,7 @@ body {
 .carousel-control,
 .item {
     border-radius: 4px;
+    height: 600px;
 }
 
 .caption {
